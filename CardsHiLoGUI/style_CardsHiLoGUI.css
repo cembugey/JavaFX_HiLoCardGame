@@ -1,0 +1,55 @@
+.root{	
+    -fx-base: black;
+    -fx-background: rgb(69, 58, 57);
+  };
+}
+
+.button{
+-fx-background-radius: 20.0;
+}
+
+.menu {
+-fx-background: black;
+}
+
+.menu-item {
+-fx-background: black;
+}
+
+.menu:hover{
+-fx-background-color: black;
+-fx-text-fill: black;
+-fx-font-size: 12;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+
+}
+
+.menuItem:hover{
+-fx-background-color: rgb(0, 0, 0);
+-fx-text-fill: black;
+-fx-font-size: 12;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+
+}
+
+.label:hover{
+-fx-top: 10px;
+-fx-transition: 2s;
+-fx-effect: dropshadow( one-pass-box , lightblue , 8 , 0.0 , 2 , 0 );
+
+}
+
+.button:hover{
+-fx-transition: 8s;
+-fx-effect: dropshadow( one-pass-box , rgb(153, 8, 8) , 6 , 0 , 2 , 4 );
+}
+
+
+.button {
+-fx-background-color: rgb(0, 0, 0);
+-fx-text-fill: white;
+-fx-font-size: 14;
+
+}
