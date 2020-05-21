@@ -37,9 +37,7 @@ import javafx.scene.layout.VBox;
 //Import to support application exit
 import javafx.application.Platform;
 
-/**
- *                   CEM BUGEY 3014176  && ELVIS LESI 3011081
- */
+
 public class CardsHiLoGUI extends Application {
 	
 	private int winCounter = 0;  
@@ -506,10 +504,8 @@ public class CardsHiLoGUI extends Application {
 		dialog.setAlwaysOnTop(true);
 							
 		// Student name and number to show on the dialog
-		Label lblName1 = new Label("Cem Bugey");
-		Label lblNumber1 = new Label("3014176");
-		Label lblName2 = new Label("Elvis Lesi");
-		Label lblNumber2 = new Label("3011081");
+		Label lblName1 = new Label("Made by Cem Bugey");
+
 		
 		
 		// Button of the dialog
@@ -528,9 +524,6 @@ public class CardsHiLoGUI extends Application {
 		GridPane dgp = new GridPane();
 		// Add labels and the button to the layout
 		dgp.add(lblName1, 0, 0);
-		dgp.add(lblNumber1, 0, 1);
-		dgp.add(lblName2, 0, 2);
-		dgp.add(lblNumber2, 0, 3);
 		dgp.add(btnOK, 6, 4);
 		
 			

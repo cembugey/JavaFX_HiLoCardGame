@@ -1,8 +1,4 @@
 
-
-/**
- *                   CEM BUGEY 3014176  && ELVIS LESI 3011081
- */
 public class Card {
 
 	// Rank and suit of the card

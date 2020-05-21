@@ -1,7 +1,5 @@
 import java.util.Random;
 
-//                CEM BUGEY 3014176  && ELVIS LESI 3011081  
-
 
 public class DeckOfCards {
 	
